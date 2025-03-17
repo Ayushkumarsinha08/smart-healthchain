@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/doctor" element={<LandingPage />} />
       </Routes>
       <Footer />
     </Router>
